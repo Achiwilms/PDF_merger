@@ -2,12 +2,12 @@
 
 A tool to merge your PDF files in the order you want.
 
-## Environment Setup
+## Environment 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required packages.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package [pypdf](https://pypi.org/project/pypdf/).
 
 ```bash
-pip install -r requirements.txt
+pip install pypdf
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ cd /path/to/directory/
 4. Place the PDF files you want to merge to folder `pdf_original`
 5. Run `merger.py`
 ```bash
-python  merger.py
+python merger.py
 ```
 6. Entet merging order, separating numbers with ","
 
